@@ -7,11 +7,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Step 1 - Authenticate
-consumer_key = "iZMzhXXwROneN2lG3uPL7CNio"
-consumer_secret = "gw6lDI2O2vyf9G5IHuIFee1knDOdVzUEEMzSSZK0buntrkpGyz"
+consumer_key = "Your keys"
+consumer_secret = "your keys"
 
-access_token = "1074330164014678017-2vBlAStmCCGLhl74B4SpVHn7b7QM03"
-access_token_secret = "SU6saxwQWYtc85hJQPpZIkjwk82wRqqjffBT5r3c4gphW"
+access_token = "your keys"
+access_token_secret = "your keys"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
